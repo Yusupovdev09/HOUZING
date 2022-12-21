@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 const getType = ({ type }) => {
     switch (type) {
         case 'dark':
@@ -38,9 +39,22 @@ const Container = styled.input`
   width: ${({ width }) => width ? `${width}px` : '100%'};
   border: 1px solid #E6E9EC;
   outline:none;
+  padding-left: ${({ icon }) => icon ? "35px" : "20px"};
   /* ${getType}  */
-  :active{
-      opacity:0.7 ;
-}
+`;
+
+const Wrapper = styled.div`
+position:relative;
+display: flex;
+align-items: center ;
+   width: ${({ width }) => width ? `${width}px` : '100%'};
 `
-export { Container }
+const Icon = styled.div`
+position: absolute ;
+left: 20px;
+transform: translate(-50%,-50%);
+top: 50%;
+`
+
+
+export { Container, Wrapper, Icon }

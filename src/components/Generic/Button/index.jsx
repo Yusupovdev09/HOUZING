@@ -8,4 +8,4 @@ export const Button = ({ children, type, onClick, width, height }) => {
         </Container>
     )
 }
-export default Button;
+export default Button; 
