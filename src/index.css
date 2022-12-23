@@ -31,6 +31,7 @@ body {
   letter-spacing: -0.02em;
   color: #0D263B;
 }
+
 .subTitle {
   font-family: 'Montserrat';
   font-style: normal;
@@ -38,4 +39,13 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #0D263B;
+}
+
+.info {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #696969;
 }
