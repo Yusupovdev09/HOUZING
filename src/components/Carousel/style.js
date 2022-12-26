@@ -5,6 +5,11 @@ import { ReactComponent as arrow } from '../../assets/icons/arrow.svg'
 const Container = styled.div`
 position: relative;
 height: fit-content;
+box-sizing: border-box;
+background-color: red;
+width: 100%;
+padding: 0;
+margin: 0;
 `
 
 const Arrow = styled(arrow)`
